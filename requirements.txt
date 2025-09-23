@@ -1,0 +1,8 @@
+psutil>=5.9.0
+PyQt6>=6.5.0
+pywin32>=300
+infi.systray>=0.1.12
+pillow>=9.0.0
+screeninfo>=0.8.1
+blurwindow>=1.2.1
+wmi>=1.5.1
