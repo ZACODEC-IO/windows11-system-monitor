@@ -140,6 +140,33 @@ If the application doesn't start:
 3. Check that all required dependencies are installed (they will install automatically on first run)
 4. If you get socket errors, reboot your system to clear any stale socket bindings
 
+## Changelog
+
+All notable changes between versions are documented in [CHANGELOG.md](CHANGELOG.md).
+
+## Viewing Commit History
+
+To see what changed in a previous commit, use the following Git commands:
+
+```bash
+# List all commits (one line each)
+git log --oneline
+
+# Show the full diff for a specific commit
+git show <commit-hash>
+
+# Compare two commits
+git diff <old-commit-hash> <new-commit-hash>
+
+# Check out the repository as it was at a specific commit (read-only)
+git checkout <commit-hash>
+
+# Return to the latest commit
+git checkout main
+```
+
+See [CHANGELOG.md](CHANGELOG.md) for a human-readable summary of every release.
+
 ## GitHub Repository
 
 This project is open source and available on GitHub. Contributions, feature requests, and bug reports are welcome!
